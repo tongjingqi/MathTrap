@@ -33,9 +33,9 @@ Our experiments show that while LLMs possess the necessary knowledge to solve ma
 
 ## Repository Structure
 
-data/: Contains the public portion of the MathTrap dataset. Users can evaluate models using this section of the dataset.
-If you would like to evaluate on the non-public portion, please refer to our paper and contact us for assistance in completing the evaluation.
-README.md: This file.
+data/: Contains the public portion of the MathTrap dataset. Users can evaluate models using this section of the dataset.  
+If you would like to evaluate on the non-public portion, please refer to our paper and contact us for assistance in completing the evaluation.  
+README.md: This file.  
 
 ## How to Use the Dataset
 
