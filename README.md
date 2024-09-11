@@ -111,6 +111,3 @@ This dataset is provided for research purposes only. Please cite our paper if yo
 }
 ```
 
----
-
-Feel free to copy and modify the content based on any specific additions you want to make!
