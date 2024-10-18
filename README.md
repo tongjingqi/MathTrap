@@ -91,48 +91,13 @@ To evaluate model performance on the MathTrap dataset, we use vllm for fast infe
 ```bash
 bash infer.sh
 ```
-or
-```bash
-python eval_gsm8k.py --model "path/to/save" --data_file ./data/test/GSM8K_test.jsonl
-python eval_math.py --model "path/to/save" --data_file ./data/test/MATH_test.jsonl
-```
-
-Make sure to replace "path/to/save" with the actual path to your fine-tuned model.
-
 
 ## Training
 
-To train models using the **MathTrap** dataset, follow the steps below. Our code is based on MetaMath's training scripts, adapted to handle the specific challenges posed by trap problems. You will need to prepare the **LLaMA-2** base model:
+To train models using the **MathTrap** dataset, follow the steps below. You will need to prepare the **LLaMA-2** base model:
 
 ```bash
 bash run.sh
-```
-
-For distributed training, use:
-
-```bash
-CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python3 -m torch.distributed.launch --master_addr ${MASTER_ADDR} --master_port ${MASTER_PORT} --nproc_per_node=8 --use_env train_math.py \
-    --model_name_or_path "meta-llama/Llama-2-7b-hf" \
-    --data_path "path/to/mathtrapqa" \
-    --data_length 10000000 \
-    --bf16 True \
-    --output_dir "path/to/save" \
-    --num_train_epochs 3 \
-    --per_device_train_batch_size 4 \
-    --per_device_eval_batch_size 4 \
-    --gradient_accumulation_steps 4 \
-    --evaluation_strategy "no" \
-    --save_strategy "steps" \
-    --save_steps 1000 \
-    --save_total_limit 2 \
-    --learning_rate 2e-5 \
-    --weight_decay 0. \
-    --warmup_ratio 0.03 \
-    --lr_scheduler_type "cosine" \
-    --logging_steps 1 \
-    --fsdp "full_shard auto_wrap" \
-    --fsdp_transformer_layer_cls_to_wrap 'LlamaDecoderLayer' \
-    --tf32 True
 ```
 
 
