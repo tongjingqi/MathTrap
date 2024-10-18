@@ -71,7 +71,7 @@ To get started, clone the MathTrap repository and install the required packages:
 
 ```bash
 git clone https://github.com/tongjingqi/MathTrap
-cd MATHTRAP
+cd MathTrap
 pip install -r requirements.txt
 ```
 
