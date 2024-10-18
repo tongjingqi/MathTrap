@@ -1,0 +1,132 @@
+{"query":"Can the height of an equilateral triangle be equal to its side length?","response":false}
+{"query":"The rectangle is 10 units long and 5 units wide. Is its perimeter equal to 20?","response":false}
+{"query":"Can three equations with two unknowns possibly have no solution?","response":true}
+{"query":"Adding the number of elements in two sets and then subtracting the number of elements in the intersection of the two sets, does it equal the number of elements in the union of the two sets?","response":true}
+{"query":"If the side length ratio of a right-angled triangle is 3:4:5, then is the height to the hypotenuse equal to half of the hypotenuse?","response":false}
+{"query":"Can the height of a cylinder inscribed in a hemisphere exceed the radius of the hemisphere?","response":false}
+{"query":"Does tan90\u00b0 not exist?","response":true}
+{"query":"If the domain of a function is x<-3 and x>-2, can the function possibly be discontinuous?","response":true}
+{"query":"Knowing the sales for May and June, without knowing the sales for July, is it possible to calculate the sum of the sales for June and July?","response":false}
+{"query":"Can an iscribed triangle of a circle have one side as a radius of the circle?","response":false}
+{"query":"Is the quadrilateral based on (0,0)--(3,4)--(10,4)--(7,0) an Parallelogram\uff1f","response":false}
+{"query":"Can sides with lengths of 5, 8, and 15 units form a triangle?","response":false}
+{"query":"Is -1 the smallest x satisfying $|x-1|=|1-x|?","response":false}
+{"query":"Can zero be a denominator?","response":false}
+{"query":"Are all four sides of a kite equal?","response":true}
+{"query":"Is the discriminant of a quadratic equation \\(b^2-4ac\\)?","response":true}
+{"query":"Does a quadratic equation always have solutions?","response":false}
+{"query":"Can the number of people attending the activity be -1?","response":false}
+{"query":"If two basis vectors are parallel in three-dimensional space, can they form an included angle other than 0 or 180 degrees, like 60 degrees?","response":false}
+{"query":"Is 2009 divided by 7 and again divided by 7 a composite number?","response":false}
+{"query":"In the pursue-and-attack game, if the game ends after the first catch-up which is 20 minutes, can the distance anyone travels after 20 minutes, like 25 minutes, be counted?","response":false}
+{"query":"Can velocity exceeds the velocity of light, given that the latter is the unsurpassable velocity?","response":false}
+{"query":"Can an angle of 83 degrees and an angle of 98 degrees appear in the same triangle?","response":false}
+{"query":"Can two angles of 110 degrees appear in the same triangle?","response":false}
+{"query":"Is it possible for the number 70 to appear in the 7-ary system?","response":false}
+{"query":"Is it possible to make a negative donation in the fundraising process?","response":false}
+{"query":"Is it possible to have two right angles in a triangle?","response":false}
+{"query":"When the ice cubes are calculated one by one, is the number of ice cubes in fractional form realistic?","response":false}
+{"query":"When the peaches are calculated one by one, is the number of peaches in fractional form realistic?","response":false}
+{"query":"Is $-2 pants possible?","response":false}
+{"query":"Can the circumference of 28 feet form a square, given that the side length is required to be even (2, 4, 6, etc.)?","response":false}
+{"query":"Is it possible to study negative hours every 24-hour day?","response":false}
+{"query":"Is it possible that a mother is only one year older than her child?","response":false}
+{"query":"Can 200 calories of oranges satisfy someone's desire to eat only 70 calories of oranges?","response":false}
+{"query":"Can $45x^2 + 118x + 49$ be factored into a formula containing only integer coefficients?","response":false}
+{"query":"There are 500,000 residential properties and a populace of 1 million. The population expands at a yearly rate of 3%. The rate of housing development to 6% annually. Will the number of residents be below the number of residential properties in 55 years?","response":false}
+{"query":"Are 312.5 and 187.5 intergers?","response":false}
+{"query":"Can a person be -1 years old?","response":false}
+{"query":"Can we get any information about concert tickets from the question \"The middle school disposed of 4 additional fair tickets than double the quantity of baseball game tickets it sold. Given that 16 fair tickets were sold, can you determine the number of concert tickets the school sold?\"","response":false}
+{"query":"Can we confirm that 20-year-old Dorothy's younger brother is over 18?","response":false}
+{"query":"Can a fair six-sided die roll a 1 with a probability of 1\/5?","response":false}
+{"query":"Is it possible to place two A's among four arranged B's in such a way that no two B's are adjacent?","response":false}
+{"query":"Can a three-letter word consist of four different letters?","response":false}
+{"query":"Is 1 a common divisor of all positive integers?","response":true}
+{"query":"Is it possible to place one A among three arranged B's in such a way that no two B's are adjacent?","response":false}
+{"query":"Is it possible to randomly select 3 people from 6 boys and 3 girls and have all 3 selected be girls?","response":true}
+{"query":"Is it guaranteed that when writing an odd number as the sum of two numbers, at least one of the numbers must be odd?","response":true}
+{"query":"Can we guarantee that a specific group of 5 people will not sit next to each other when arranging 8 people in a circular arrangement?","response":false}
+{"query":"Is it possible for a straight line outside the rectangle to intersect with the rectangle?","response":false}
+{"query":"Is it guaranteed that two intersecting lines always have a point of intersection?","response":true}
+{"query":"Is a pyramid a regular tetrahedron?","response":false}
+{"query":"Are intersecting lines always non-parallel?","response":true}
+{"query":"Are two lines with the same slope always parallel?","response":true}
+{"query":"Can a regular pentagon be obtained by removing one side from a regular hexagon?","response":false}
+{"query":"Is it necessary for a right triangle to have one angle measuring 90 degrees?","response":true}
+{"query":"Are two non-parallel line segments always guaranteed to intersect?","response":false}
+{"query":"Can you use a griddlen to make larger waffles?","response":false}
+{"query":"Does a regular pentagon have five sides?","response":true}
+{"query":"Can four red balls be removed from a pocket containing three red balls by catching the ball without replacing it?","response":false}
+{"query":"If you take the crayons out of a pocket that contains three crayons without putting them back, can you take out four crayons?","response":false}
+{"query":"Can the multiplication of three integers greater than zero and less than or equal to six be greater than 216?","response":false}
+{"query":"Can the mean of several numbers greater than 7 be greater than 7?","response":false}
+{"query":"Can the variance of six numbers that can only be 2 or 7 be greater than 7.25?","response":false}
+{"query":"Five people watch the game. Is it possible that seven people will stay?","response":false}
+{"query":"Can two numbers less than or equal to 6 make banana greater than 13?","response":false}
+{"query":"If the number of people in the two groups is not equal, can they be seated at a round table?","response":false}
+{"query":"Can a deck of playing cards have five suits?","response":false}
+{"query":"Is it possible to draw 9 white balls from a bag containing 7 white balls without replacing the drawn balls?","response":false}
+{"query":"Can you make up the letters required for the word problem from the three words CARD, HERBS, and GLOW?","response":false}
+{"query":"Can four balls be put into five boxes so that there is at least one ball in each box?","response":false}
+{"query":"The number of people in the two groups is 3 and 5 respectively. Can they be arranged at intervals?","response":false}
+{"query":"Is the square of \\( i \\) always equal to -1?","response":false}
+{"query":"Is it guaranteed that a system of two linear equations always has a solution?","response":false}
+{"query":"Are the two diameters of an ellipse always equal in length?","response":false}
+{"query":"Can zero be used as a divisor?","response":false}
+{"query":"Are there 3 different (a)s that make the equation ( 4x^2 + ax + 8x + 9 = 0 ) having a single solution for ( x )?","response":false}
+{"query":"Given that ( x ) and ( y ) are positive numerical quantities with the equation ( 5x + 3y = 100 ), does the maximum achievable value of the ratio ( x to y ) exists?","response":false}
+{"query":"Is frac{1}{2} an interger?","response":false}
+{"query":"Is the dominator of a fraction usually an interger?","response":true}
+{"query":"Are there 13 different intergers in the solution set of ( |x-2| \\leq 5.6 )?","response":false}
+{"query":"Is \\frac{123}{14} an interger?","response":false}
+{"query":"Does the circle ( x^2 - 6x + y^2 - 6y + 33 = 0 ) exists?","response":false}
+{"query":"Is a natural number always a factor of itself?","response":true}
+{"query":"Is it always possible to determine a parabola with four points?","response":false}
+{"query":"Are two functions guaranteed to have points of intersection?","response":false}
+{"query":"Does the unary function \\( y(x) \\) depend on another independent variable \\( t \\)?","response":false}
+{"query":"Can the minimum value of a quadratic function be negative infinity?","response":true}
+{"query":"If I plant something at 3 p.m., is it possible to evaluate its growth at 1 p.m. in the same day?","response":false}
+{"query":"Does (0^{-1})^{-1} exist?","response":false}
+{"query":"Can $2008, 2003, 1998, \\\\ldots, 9, 4$ form a list?","response":false}
+{"query":"Does $\\\\frac{5}{36}$ have the 8th non-zero digit?","response":false}
+{"query":"Can a 10-sided dice be numbered from -5 to 5?","response":false}
+{"query":"If a square piece of paper is folded once so that one pair of adjacent corners coincide, does it make two congruent triangles?","response":false}
+{"query":"Exits on a highway are numbered consecutively from 1 to 50. Given that the distance from exit 41 to exit 50 is 50 km, is it possible that each exit is at least 6 km from the next exit?","response":false}
+{"query":"Dawn has $\\\\$ $1.25 in nickels, dimes and quarters. The numbers of the three coins are the same. Is it possible?","response":false}
+{"query":"Is it possible for a rhombus to have a side of $17$ units and a diagonal of $35$ units?","response":false}
+{"query":"Is it possible for someone to be -3 years old?","response":false}
+{"query":"Is it possible to find a number that is a factor of 60 and a multiple of 63?","response":false}
+{"query":"Can irrational numbers be obtained through the four fundamental operations of rational numbers?","response":false}
+{"query":"Can someone work 25 hours a day?","response":false}
+{"query":"The number of some people is x. If 7*x=845, is there a valid solution?","response":false}
+{"query":"An A eats 2 Bs per day. If there exist 6 Bs, is it possible to find the number of A?","response":false}
+{"query":"Is it possible for someone to have a 0-letter last name?","response":false}
+{"query":"Is it proper if the solution of an equation shows that someone's salary is $-3000?","response":false}
+{"query":"Do the equations $5 + 8 + x = 20$ and $8 < x$ have solution?","response":false}
+{"query":"Given that 40% of students got a grade below B, is it possible to determine the ratio of students getting a grade above B?","response":false}
+{"query":"Can the roots of a quadratic equation be positive real numbers?","response":true}
+{"query":"Is twenty-four months less than three years?","response":true}
+{"query":"Can an equation have no solutions?","response":true}
+{"query":"Can zero simultaneously appear in both the numerator and the denominator?","response":false}
+{"query":"Is 0 the smallest value of \\( x \\) that satisfies \\( |x| = |-x| \\)?","response":false}
+{"query":"Can one person hold two positions concurrently?","response":true}
+{"query":"Sets A, B, and C are included in the complete set U, and have a, b, and c distinct elements respectively without overlapping. Does the number of elements of the complete set U must be greater than or equal to a+b+c?","response":true}
+{"query":"Let $\\mathbf{a},$ $\\mathbf{b},$ and $\\mathbf{c}$ be three unit vectors such that $\\mathbf{a} \\cdot \\mathbf{b} = \\mathbf{a} \\cdot \\mathbf{c} = 1,$ are these three vectors parallel to each other?","response":true}
+{"query":"Does the letter E have rotational symmetry?","response":false}
+{"query":"Given that $b^2 = 2197a$ and $1<a<13$, is $b$ necessarily greater than $13$?","response":true}
+{"query":"Is the quadrilateral based on (0,0)--(3,4)--(11,5)--(8,0) an Parallelogram\uff1f","response":false}
+{"query":"Does 10 have a modular inverse mod 508?","response":false}
+{"query":"Does the equation a=b=0 (mod M) have solution if gcd(a, b)=1 and M>1?","response":false}
+{"query":"Does there exist a maximum number among all integers whose digits add up to x?","response":false}
+{"query":"Is 9200 the smallest number whose digits add up to $11$?","response":false}
+{"query":"Is it possible to find two integers a, b, while a is not divisible by gcd(a, b)?","response":false}
+{"query":"Does any month have 33 days in the Gregorian calendar?","response":false}
+{"query":"Does $\\\\frac{141}{402}$ have the last nonzero digit to the right of the decimal point?","response":false}
+{"query":"Does there exist a number in which the product of the digits is $11$?","response":false}
+{"query":"Can the remainder be larger than the divisor?","response":false}
+{"query":"Do sides $\\\\overline{AB}$ and $\\\\overline{ED}$ of regular hexagon $ABCDEF$ meet if extended?","response":false}
+{"query":"Can a convex pentagon have an angle of 181 degrees?","response":false}
+{"query":"If the average of integers a and b is 3, does there exist a maximum number for b?","response":false}
+{"query":"Is it possible for a square to have a side length of 40 and a perimeter of 100?","response":false}
+{"query":"Does the function y=sin(x) (x!=0) have a period?","response":false}
+{"query":"If tan(x) = a, does there exist a maximum value for x?","response":false}
