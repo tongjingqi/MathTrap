@@ -23,13 +23,13 @@ To illustrate the types of problems included in the **MathTrap** dataset, here a
 
 | **Type**                  | **Trap Problem**                                                                                                                                      | **Explanation**                                                                                                   |
 |---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|
-| **Concept Undefined**     | In right triangle \(XYZ\) with \(\angle YXZ = 90^\circ\), we have \(XY = 24\) and \(YZ = 25\). Find \colorbox{yellow}{\(\tan X\)}.            | \(\angle YXZ = 90^\circ\), so \(\tan X=\tan(\pi/2)\) is undefined.                                             |
-| **Missing Condition**     | Natalia sold 48 clips in April and half as many clips in May. How many clips did Natalia sell altogether in April and \colorbox{yellow}{June}? | We don't know anything about June, so it's impossible to calculate the sum of the sales for April and June.      |
-| **Direct Contradiction**  | An equilateral triangle has a perimeter of 30 centimeters \colorbox{yellow}{and a height of 10 centimeters}. Calculate the area of the triangle. | The height of the equilateral triangle and its side length are both 10 centimeters, which is contradictory and impossible. |
-| **Indirect Contradiction**| Find the \colorbox{yellow}{integer} solution of the equation \(x^2+x=3\).                                                                        | The 2 solutions of this quadratic equation are \(\frac{-1 \pm \sqrt{13}}{2}\), so there is no integer solution.|
-| **Violating Common Sense**| Max picks \colorbox{yellow}{5} different cards without replacement from a standard 52-card deck. What is the probability that the cards are of different suits? | There are only 4 suits in a deck, so it's impossible for 5 cards to be of different suits.                       |
+| **Concept Undefined**     | In right triangle XYZ with ∠YXZ = 90°, we have XY = 24 and YZ = 25. Find **tan X**.            | ∠YXZ = 90°, so **tan X = tan(π/2)** is undefined.                                             |
+| **Missing Condition**     | Natalia sold 48 clips in April and half as many clips in May. How many clips did Natalia sell altogether in April and **June**? | We don't know anything about June, so it's impossible to calculate the sum of the sales for April and June.      |
+| **Direct Contradiction**  | An equilateral triangle has a perimeter of 30 centimeters **and a height of 10 centimeters**. Calculate the area of the triangle. | The height of the equilateral triangle and its side length are both 10 centimeters, which is contradictory and impossible. |
+| **Indirect Contradiction**| Find the **integer** solution of the equation \(x^2+x=3\).                                                                        | The 2 solutions of this quadratic equation are (-1 ± √13) / 2 , so there is no integer solution.| 
+| **Violating Common Sense**| Max picks **5** different cards without replacement from a standard 52-card deck. What is the probability that the cards are of different suits? | There are only 4 suits in a deck, so it's impossible for 5 cards to be of different suits.                       |
 
-*Table: Explanation of examples of trap problems for each category. The sections highlighted in \colorbox{yellow}{yellow} delineate the distinction between original problems and trap problems.*
+*Table: Explanation of examples of trap problems for each category.*
 
 ---
 
