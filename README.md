@@ -10,7 +10,7 @@ For detailed explanations and results of our research, please refer to our paper
 > **Exploring the Compositional Deficiency of Large Language Models in Mathematical Reasoning Through Trap Problems**  
 > Jun Zhao*, Jingqi Tong*, Yurong Mou, Ming Zhang, Qi Zhang, Xuanjing Huang  
 > School of Computer Science, Fudan University  
-> [arXiv link](https://arxiv.org/abs/2405.06680v2)
+> [arXiv link](https://arxiv.org/pdf/2405.06680)
 
 ## MathTrap Dataset
 
