@@ -38,32 +38,37 @@ To illustrate the types of problems included in the **MathTrap** dataset, here a
 We have evaluated a variety of prominent LLMs using the **MathTrap_Private** benchmark.
 
 
-| **Model**               | **Conceptual** | **Original** | **Trap** | **Ratio** |
-|-------------------------|----------------|--------------|----------|-----------|
-| Gemini-Pro               | 70.0           | 36.9         | 8.30     | 22.5      |
-| Claude3-Opus             | 87.7           | 68.5         | 19.0     | 27.7      |
-| Claude-3.5-Sonnet        | 93.9           | 75.0         | 19.4     | 25.9      |
-| GPT-3.5-turbo-0125       | 74.6           | 40.5         | 7.60     | 18.8      |
-| GPT-4-0125-preview       | 90.0           | 70.3         | 36.0     | 51.2      |
-| o1-preview(API)          | 96.2           | 88.3         | 38.1     | 43.1      |
-| o1-preview(Web)          | 92.3           | 87.5         | 67.7     | 77.4      |
-| Kimi                     | 71.5           | 46.1         | 19.6     | 42.5      |
-| **Llemma-MetaMath-7B**   | 55.2           | 41.4         | 6.40     | 15.5      |
-| **MetaMath-7B**          | 43.2           | 32.5         | 1.90     | 5.84      |
-| **MetaMath-13B**         | 37.8           | 37.5         | 3.90     | 10.4      |
-| **MetaMath-70B**         | 57.6           | 34.2         | 6.50     | 19.0      |
-| **Llama3-8B**            | 70.5           | 33.3         | 6.45     | 19.4      |
-| **Llama3-8B-Base**       | 44.7           | 33.3         | 6.45     | 19.4      |
-| **Llama3-70B**           | 88.5           | 61.7         | 7.74     | 12.5      |
-| **Llama3-70B-Base**      | 53.8           | 37.5         | 7.74     | 20.6      |
-| **Llama3.1-8B**          | 70.8           | 61.7         | 13.5     | 21.9      |
-| **Llama3.1-70B**         | 88.5           | 69.2         | 19.4     | 28.0      |
+
+
+| Model                   | Conceptual      | Original     | Trap      | Ratio     |
+|-------------------------|-----------------|--------------|-----------|-----------|
+| Gemini-Pro               | 70.0            | 36.9         | 8.30      | 22.5      |
+| Claude3-Opus             | 87.7            | 68.5         | 19.0      | 27.7      |
+| Claude-3.5-Sonnet        | 93.9            | 75.0         | 19.4      | 25.9      |
+| GPT-3.5-turbo-0125       | 74.6            | 40.5         | 7.60      | 18.8      |
+| GPT-4-0125-preview       | 90.0            | 70.3         | 36.0      | 51.2      |
+| **o1-preview(API)**      | **96.2**        | **88.3**     | **38.1**  | **43.1**  |
+| **o1-preview(Web)**      | **92.3**        | **87.5**     | **67.7**  | **77.4**  |
+| Kimi                     | 71.5            | 46.1         | 19.6      | 42.5      |
+|-------------------------|-----------------|--------------|-----------|-----------|
+| Llemma-MetaMath-7B       | 55.2            | 41.4         | 6.40      | 15.5      |
+| MetaMath-7B              | 43.2            | 32.5         | 1.90      | 5.84      |
+| MetaMath-13B             | 37.8            | 37.5         | 3.90      | 10.4      |
+| MetaMath-70B             | 57.6            | 34.2         | 6.50      | 19.0      |
+| Llama3-8B                | 70.5            | 33.3         | 6.45      | 19.4      |
+| Llama3-8B-Base           | 44.7            | 33.3         | 6.45      | 19.4      |
+| Llama3-70B               | 88.5            | 61.7         | 7.74      | 12.5      |
+| Llama3-70B-Base          | 53.8            | 37.5         | 7.74      | 20.6      |
+| Llama3.1-8B              | 70.8            | 61.7         | 13.5      | 21.9      |
+| Llama3.1-70B             | 88.5            | 69.2         | 19.4      | 28.0      |
+
+
 
 *Table: Accuracy (%) of various models on three types of MathTrap problems. 'Conceptual' represents Conceptual problems, 'Original' refers to the original problems, and 'Trap' denotes the trap problems. 'Ratio' refers to the ratio of the accuracy on Trap problems to the accuracy on Original problems. It reflects the degree to which performance is maintained when facing problems with traps, relative to the original problems.*
 
 ## Key Findings
 
-Our experiments show that while LLMs possess the necessary knowledge to solve mathematical problems, they struggle to combine this knowledge effectively when faced with novel trap problems. In contrast, human participants demonstrate much stronger compositional generalization abilities when solving these same trap problems.
+Our experiments show that while LLMs possess both components of requisite knowledge, they do not spontaneously combine them to handle these novel cases. We explore several methods to mitigate this deficiency, such as natural language prompts, few-shot demonstrations, and fine-tuning. Additionally, we test the recently released OpenAI o1 model and find that human-like ‘slow thinking’ helps improve the compositionality of LLMs.
 
 ## Installation
 
