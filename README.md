@@ -7,27 +7,10 @@
 
 For detailed explanations and results of our research, please refer to our paper:
 
-<pre>
-@inproceedings{zhao-etal-2024-exploring-compositional,
-    title = "Exploring the Compositional Deficiency of Large Language Models in Mathematical Reasoning Through Trap Problems", 
-    author = "Zhao, Jun  and
-      Tong, Jingqi  and
-      Mou, Yurong  and
-      Zhang, Ming  and
-      Zhang, Qi  and
-      Huang, Xuanjing",
-    editor = "Al-Onaizan, Yaser  and
-      Bansal, Mohit  and
-      Chen, Yun-Nung",
-    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
-    month = nov,
-    year = "2024",
-    address = "Miami, Florida, USA",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2024.emnlp-main.915",
-    pages = "16361--16376",
-}
-</pre>
+> **Exploring the Compositional Deficiency of Large Language Models in Mathematical Reasoning Through Trap Problems**  
+> Jun Zhao*, Jingqi Tong*, Yurong Mou, Ming Zhang, Qi Zhang, Xuanjing Huang  
+> School of Computer Science, Fudan University  
+> [arXiv link](https://arxiv.org/pdf/2405.06680)
 
 ## MathTrap Dataset
 
@@ -133,11 +116,24 @@ While the training scripts are based on those from the **MetaMath** project, the
 If you use MathTrap in your work, please cite our paper:
 
 ```
-@article{MathTrap2024,
-  title={Exploring the Compositional Deficiency of Large Language Models in Mathematical Reasoning Through Trap Problems},
-  author={Jun Zhao, Jingqi Tong, Yurong Mou, Ming Zhang, Qi Zhang, Xuanjing Huang},
-  journal={arXiv preprint arXiv:2405.06680v2},
-  year={2024}
+@inproceedings{zhao-etal-2024-exploring-compositional,
+    title = "Exploring the Compositional Deficiency of Large Language Models in Mathematical Reasoning Through Trap Problems", 
+    author = "Zhao, Jun  and
+      Tong, Jingqi  and
+      Mou, Yurong  and
+      Zhang, Ming  and
+      Zhang, Qi  and
+      Huang, Xuanjing",
+    editor = "Al-Onaizan, Yaser  and
+      Bansal, Mohit  and
+      Chen, Yun-Nung",
+    booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.emnlp-main.915",
+    pages = "16361--16376",
 }
 ```
 
