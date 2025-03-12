@@ -110,6 +110,7 @@ bash run.sh
 ## Acknowledgements
 
 While the training scripts are based on those from the **MetaMath** project, the main contributions of MathTrap lie in the design of the **trap problems** and the investigation of LLMs’ compositional reasoning abilities. We would like to thank the MetaMath team for their open-source work, which has supported the technical foundation of this project. For more information on MetaMath, please visit their [repository](https://github.com/meta-math/MetaMath).
+People participated in designing trap problems (numbers in parentheses are problem counts): Yurong Mou (142), Yuhui Wang (47), Zhiyuan Guo (23), Jingyi Deng (19), Yurui Dong (15), Jingqi Tong (7), Yujiong Shen (4), Jun Zhao (2).
 
 ## Citation
 
